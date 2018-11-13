@@ -1,0 +1,24 @@
+文件说明：
+	1.Main.java为源码
+	2.project11.jar为打包好的jar
+	3.disassembly.txt输出的是反编译结果
+	4.simulation.txt是汇编语言执行过程的模拟结果
+	
+注意：程序执行过程中会有一些输出，输出内容与文件disassembly.txt和simulation.txt里的内容一致。
+
+Linux下：
+	1.进入命令行
+	2.创建目录：sudo mkdir mips
+	3.进入目录：cd mips
+	4.把文件project11.jar和你的sample.txt复制到mips目录
+	5.执行 java -jar project11.jar
+	6.结果在mips目录的disassembly.txt和simulation.txt
+
+windows下：
+	1.在C盘创建目录【mips】
+	2.进入创建的目录中，把文件project11.jar和你的sample.txt复制到【mips】中 
+	3.打开命令行进入【mips】目录中
+	4.执行 java -jar project11.jar
+	5.结果在mips目录的disassembly.txt和simulation.txt
+
+
