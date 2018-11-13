@@ -1,0 +1,16 @@
+
+<view class="page">
+<!--首页-->  
+<view class="page__bd">
+   <view class="weui-panel__bd">
+      <block wx:for="{{listData}}" wx:key="unique" >
+                <navigator url='../newsdetail/newsdetail?url={{item.detail}}' class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active"> 
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">{{item.title}}</view>
+                        <view class="weui-media-box__desc " ><i class="weui-icon-waiting"></i> 发布时间：{{item.time}}</view>
+                    </view>
+                </navigator>
+      </block> 
+    </view>
+</view>  
+</view>
